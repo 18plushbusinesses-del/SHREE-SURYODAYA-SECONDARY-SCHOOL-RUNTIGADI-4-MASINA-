@@ -1,0 +1,8 @@
+{
+  "appId": "np.edu.suryodaya.app",
+  "appName": "Shree Suryodaya Secondary School",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
