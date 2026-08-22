@@ -36,7 +36,7 @@ export const AcademicCalendarModal: React.FC<AcademicCalendarModalProps> = ({
                 {t.calendarTitle}
               </h2>
               <p className="text-xs text-amber-300 font-semibold">
-                {t.todayIs}: २०८१ असोज ०४ (2026-09-20)
+                {t.todayIs}: २०८३ असोज ०४ (2026-09-20)
               </p>
             </div>
           </div>

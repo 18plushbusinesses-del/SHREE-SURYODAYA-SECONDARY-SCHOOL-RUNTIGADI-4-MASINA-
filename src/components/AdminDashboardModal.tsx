@@ -495,7 +495,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
                   </label>
                   <button
                     type="button"
-                    onClick={() => setPasswordInput('SuryodayaAdmin2081!')}
+                    onClick={() => setPasswordInput('@SSSSADMIN2083!')}
                     className="text-[11px] font-bold text-blue-600 hover:text-blue-800 underline cursor-pointer"
                     title="Fill default admin key"
                   >
@@ -507,7 +507,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
                   required
                   value={passwordInput}
                   onChange={(e) => setPasswordInput(e.target.value)}
-                  placeholder="Enter admin key..."
+                  placeholder="Enter admin key (e.g. @SSSSADMIN2083!)..."
                   className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 font-mono"
                 />
               </div>
@@ -531,7 +531,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
               </button>
 
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
-                <span>Default: <code className="bg-slate-100 px-1.5 py-0.5 rounded font-mono text-slate-700">SuryodayaAdmin2081!</code></span>
+                <span>Default: <code className="bg-slate-100 px-1.5 py-0.5 rounded font-mono text-slate-700 font-bold">@SSSSADMIN2083!</code></span>
                 <button
                   type="button"
                   onClick={() => setAuthView('setNewKey')}
@@ -1387,16 +1387,16 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
                 </div>
 
                 <div className="pt-2 flex flex-wrap items-center justify-between gap-2 text-xs text-blue-200">
-                  <span>Current Active Admin Key: <strong className="text-amber-300 font-mono">Configured</strong></span>
+                  <span>Current Active Admin Key: <strong className="text-amber-300 font-mono">@SSSSADMIN2083!</strong></span>
                   <button
                     type="button"
                     onClick={() => {
-                      setNewPass('SuryodayaAdmin2081!');
-                      setCurrentPass(passwordInput || 'SuryodayaAdmin2081!');
+                      setNewPass('@SSSSADMIN2083!');
+                      setCurrentPass(passwordInput || '@SSSSADMIN2083!');
                     }}
                     className="text-amber-400 hover:text-amber-300 underline font-bold"
                   >
-                    Reset form to default: SuryodayaAdmin2081!
+                    Reset form to default: @SSSSADMIN2083!
                   </button>
                 </div>
               </div>
@@ -1424,7 +1424,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
                   <input
                     type="password"
                     required
-                    placeholder="Enter current password (default: SuryodayaAdmin2081!)"
+                    placeholder="Enter current password (default: @SSSSADMIN2083!)"
                     value={currentPass}
                     onChange={(e) => setCurrentPass(e.target.value)}
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-600 font-mono"

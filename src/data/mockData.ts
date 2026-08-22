@@ -11,15 +11,15 @@ import {
 export const initialNotices: Notice[] = [
   {
     id: 'notice-1',
-    title_en: "Urgent: SEE Model Board Examination Routine & Admit Card Distribution 2081",
-    title_np: "अति जरुरी: एस.इ.इ. (SEE) मोडल बोर्ड परीक्षा तालिका तथा प्रवेशपत्र वितरण २०८१",
-    content_en: "All Grade 10 students are hereby notified that the SEE Pre-Board Examinations will commence from Ashoj 15, 2081 (October 01, 2026). Admit cards will be distributed from the Account Office starting Ashoj 10 upon clearing all pending school dues. Strict attendance in school uniform with admit cards is mandatory.",
-    content_np: "कक्षा १० का सम्पूर्ण छात्रछात्रालाई सूचित गरिन्छ कि एस.इ.इ. (SEE) प्रि-बोर्ड नमुना परीक्षा मिति २०८१ असोज १५ गतेदेखि सञ्चालन हुनेछ। परीक्षा प्रवेशपत्र असोज १० गतेदेखि लेखा शाखाबाट वितरण गरिनेछ। परीक्षा भवनमा प्रवेश गर्दा अनिवार्य रूपमा प्रवेशपत्र र विद्यालयको पोशाक लगाउनु पर्नेछ।",
+    title_en: "Urgent: SEE Model Board Examination Routine & Admit Card Distribution 2083",
+    title_np: "अति जरुरी: एस.इ.इ. (SEE) मोडल बोर्ड परीक्षा तालिका तथा प्रवेशपत्र वितरण २०८३",
+    content_en: "All Grade 10 students are hereby notified that the SEE Pre-Board Examinations will commence from Ashoj 15, 2083. Admit cards will be distributed from the Account Office starting Ashoj 10 upon clearing all pending school dues. Strict attendance in school uniform with admit cards is mandatory.",
+    content_np: "कक्षा १० का सम्पूर्ण छात्रछात्रालाई सूचित गरिन्छ कि एस.इ.इ. (SEE) प्रि-बोर्ड नमुना परीक्षा मिति २०८३ असोज १५ गतेदेखि सञ्चालन हुनेछ। परीक्षा प्रवेशपत्र असोज १० गतेदेखि लेखा शाखाबाट वितरण गरिनेछ। परीक्षा भवनमा प्रवेश गर्दा अनिवार्य रूपमा प्रवेशपत्र र विद्यालयको पोशाक लगाउनु पर्नेछ।",
     category: 'exams',
     targetAudience: 'students',
     isUrgent: true,
     isPinned: true,
-    dateBS: "२०८१ असोज ०४",
+    dateBS: "२०८३ असोज ०४",
     dateAD: "2026-09-20",
     author: "Examination Controller Office",
     viewsCount: 1420,
@@ -28,8 +28,8 @@ export const initialNotices: Notice[] = [
     attachments: [
       {
         id: 'att-1',
-        title_en: "SEE_Model_Exam_Routine_2081.pdf",
-        title_np: "SEE_मोडल_परीक्षा_तालिका_२०८१.pdf",
+        title_en: "SEE_Model_Exam_Routine_2083.pdf",
+        title_np: "SEE_मोडल_परीक्षा_तालिका_२०८३.pdf",
         fileType: 'pdf',
         fileSize: '1.4 MB',
         url: '#'
@@ -38,15 +38,15 @@ export const initialNotices: Notice[] = [
   },
   {
     id: 'notice-2',
-    title_en: "Grand Dashain, Tihar & Chhath Festival Vacation Notice",
-    title_np: "बडा दशैं, तिहार तथा छठ पर्वको पावन अवसरमा सार्वजनिक बिदाको सूचना",
-    content_en: "On the auspicious occasion of Vijaya Dashami, Deepawali, and Chhath Parva, Shree Suryodaya Secondary School will remain closed from Ashoj 24, 2081 to Kartik 20, 2081. Festival holiday homework and project assignments have been distributed by class teachers. School regular classes will resume on Kartik 21 at 10:00 AM.",
-    content_np: "विजया दशमी, शुभ दीपावली तथा छठ पर्वको सुखद उपलक्ष्यमा मिति २०८१ असोज २४ गतेदेखि कार्तिक २० गतेसम्म विद्यालयमा पठनपाठन पूर्ण रूपमा बन्द रहने व्यहोरा जानकारी गराइन्छ। चाडपर्वको गृहकार्य सम्बन्धित कक्षा शिक्षकबाट प्रदान गरिसकिएको छ। विद्यालय नियमित रूपमा कार्तिक २१ गते बिहान १०:०० बजेदेखि सञ्चालन हुनेछ।",
+    title_en: "Grand Dashain, Tihar & Chhath Festival Vacation Notice 2083",
+    title_np: "बडा दशैं, तिहार तथा छठ पर्वको पावन अवसरमा सार्वजनिक बिदाको सूचना २०८३",
+    content_en: "On the auspicious occasion of Vijaya Dashami, Deepawali, and Chhath Parva, Shree Suryodaya Secondary School will remain closed from Ashoj 24, 2083 to Kartik 20, 2083. Festival holiday homework and project assignments have been distributed by class teachers. School regular classes will resume on Kartik 21 at 10:00 AM.",
+    content_np: "विजया दशमी, शुभ दीपावली तथा छठ पर्वको सुखद उपलक्ष्यमा मिति २०८३ असोज २४ गतेदेखि कार्तिक २० गतेसम्म विद्यालयमा पठनपाठन पूर्ण रूपमा बन्द रहने व्यहोरा जानकारी गराइन्छ। चाडपर्वको गृहकार्य सम्बन्धित कक्षा शिक्षकबाट प्रदान गरिसकिएको छ। विद्यालय नियमित रूपमा कार्तिक २१ गते बिहान १०:०० बजेदेखि सञ्चालन हुनेछ।",
     category: 'holidays',
     targetAudience: 'all',
     isUrgent: false,
     isPinned: true,
-    dateBS: "२०८१ असोज ०१",
+    dateBS: "२०८३ असोज ०१",
     dateAD: "2026-09-17",
     author: "Principal's Desk",
     viewsCount: 2310,
@@ -73,7 +73,7 @@ export const initialNotices: Notice[] = [
     targetAudience: 'students',
     isUrgent: false,
     isPinned: false,
-    dateBS: "२०८१ भाद्र २८",
+    dateBS: "२०८३ भाद्र २८",
     dateAD: "2026-09-13",
     author: "Academic Coordinator",
     viewsCount: 890,
@@ -84,13 +84,13 @@ export const initialNotices: Notice[] = [
     id: 'notice-4',
     title_en: "Parent-Teacher Association (PTA) General Assembly & Progress Card Distribution",
     title_np: "अभिभावक-शिक्षक संघ (PTA) को आम भेला तथा प्रथम त्रैमासिक नतिजा वितरण",
-    content_en: "Respected Parents and Guardians are cordially invited to the 1st Terminal Examination Result Distribution and PTA General Meeting scheduled for Bhadra 31, 2081 at 11:00 AM in the School Assembly Hall. Agenda: Student progress evaluation, bus route expansion, and science lab upgrade.",
-    content_np: "आदरणीय अभिभावक ज्यूहरूमा प्रथम त्रैमासिक परीक्षाको नतिजा पत्र वितरण तथा अभिभावक-शिक्षक संघको आम भेलामा हार्दिक निमन्त्रणा गर्दछौँ। मिति: २०८१ भाद्र ३१ गते शनिबार बिहान ११:०० बजे। स्थान: विद्यालयको सभाहल।",
+    content_en: "Respected Parents and Guardians are cordially invited to the 1st Terminal Examination Result Distribution and PTA General Meeting scheduled for Bhadra 31, 2083 at 11:00 AM in the School Assembly Hall. Agenda: Student progress evaluation, bus route expansion, and science lab upgrade.",
+    content_np: "आदरणीय अभिभावक ज्यूहरूमा प्रथम त्रैमासिक परीक्षाको नतिजा पत्र वितरण तथा अभिभावक-शिक्षक संघको आम भेलामा हार्दिक निमन्त्रणा गर्दछौँ। मिति: २०८३ भाद्र ३१ गते शनिबार बिहान ११:०० बजे। स्थान: विद्यालयको सभाहल।",
     category: 'meetings',
     targetAudience: 'parents',
     isUrgent: false,
     isPinned: false,
-    dateBS: "२०८१ भाद्र २४",
+    dateBS: "२०८३ भाद्र २४",
     dateAD: "2026-09-09",
     author: "PTA Management Committee",
     viewsCount: 1150,
@@ -99,15 +99,15 @@ export const initialNotices: Notice[] = [
   },
   {
     id: 'notice-5',
-    title_en: "Inter-House Annual Sports & Athletics Championship 2081 Announcement",
-    title_np: "वार्षिक अन्तर-सदन खेलकुद तथा एथलेटिक्स प्रतियोगिता २०८१",
-    content_en: "Shree Suryodaya Secondary School is organizing the Annual Inter-House Sports Week (Football, Volleyball, 100m Athletics, Chess, Badminton) from Mangsir 12 to Mangsir 15. Students interested in house selection must register their names with Physical Education instructors by Mangsir 05.",
+    title_en: "Inter-House Annual Sports & Athletics Championship 2083 Announcement",
+    title_np: "वार्षिक अन्तर-सदन खेलकुद तथा एथलेटिक्स प्रतियोगिता २०८३",
+    content_en: "Shree Suryodaya Secondary School is organizing the Annual Inter-House Sports Week (Football, Volleyball, 100m Athletics, Chess, Badminton) from Mangsir 12 to Mangsir 15, 2083. Students interested in house selection must register their names with Physical Education instructors by Mangsir 05.",
     content_np: "विद्यालयको वार्षिक खेलकुद सप्ताह (फुटबल, भलिबल, १०० मि. दौड, बुद्धिचाल र ब्याडमिन्टन) यही मङ्सिर १२ देखि १५ गतेसम्म सञ्चालन हुँदैछ। इच्छुक छात्रछात्राले मङ्सिर ५ गतेभित्र आ-आफ्नो हाउस (Red/Blue/Green/Yellow) क्याप्टेन वा खेलकुद शिक्षकलाई नाम टिपाउनुहोला।",
     category: 'events',
     targetAudience: 'all',
     isUrgent: false,
     isPinned: false,
-    dateBS: "२०८१ भाद्र १५",
+    dateBS: "२०८३ भाद्र १५",
     dateAD: "2026-08-31",
     author: "Sports Department",
     viewsCount: 760,
@@ -116,8 +116,8 @@ export const initialNotices: Notice[] = [
     attachments: [
       {
         id: 'att-3',
-        title_en: "Sports_Week_Rules_Rulesheet.pdf",
-        title_np: "खेलकुद_सप्ताह_नियमवली.pdf",
+        title_en: "Sports_Week_Rules_Rulesheet_2083.pdf",
+        title_np: "खेलकुद_सप्ताह_नियमवली_२०८३.pdf",
         fileType: 'pdf',
         fileSize: '890 KB',
         url: '#'
@@ -133,8 +133,8 @@ export const mockTopPerformers: TopPerformer[] = [
     studentName_np: "आयुष्मा शर्मा",
     photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
     gpaOrPercentage: "GPA 3.95 (A+)",
-    examTitle_en: "National SEE Board Exam 2080",
-    examTitle_np: "राष्ट्रिय एस.इ.इ. बोर्ड परीक्षा २०८०",
+    examTitle_en: "National SEE Board Exam 2082",
+    examTitle_np: "राष्ट्रिय एस.इ.इ. बोर्ड परीक्षा २०८२",
     rank: 1,
     gradeClass: "Class 10 (Topper)",
     achievementBadge: "District School Rank #1"
@@ -145,8 +145,8 @@ export const mockTopPerformers: TopPerformer[] = [
     studentName_np: "रोहन तामाङ",
     photoUrl: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400",
     gpaOrPercentage: "GPA 3.88 (A+)",
-    examTitle_en: "National SEE Board Exam 2080",
-    examTitle_np: "राष्ट्रिय एस.इ.इ. बोर्ड परीक्षा २०८०",
+    examTitle_en: "National SEE Board Exam 2082",
+    examTitle_np: "राष्ट्रिय एस.इ.इ. बोर्ड परीक्षा २०८२",
     rank: 2,
     gradeClass: "Class 10",
     achievementBadge: "Science & Math Highest Scorer"
@@ -157,8 +157,8 @@ export const mockTopPerformers: TopPerformer[] = [
     studentName_np: "संस्कृति कार्की",
     photoUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=400",
     gpaOrPercentage: "GPA 3.85 (A+)",
-    examTitle_en: "District BLE Examination 2080 (Grade 8)",
-    examTitle_np: "जिल्लास्तरीय बि.एल.इ. परीक्षा २०८० (कक्षा ८)",
+    examTitle_en: "District BLE Examination 2082 (Grade 8)",
+    examTitle_np: "जिल्लास्तरीय बि.एल.इ. परीक्षा २०८२ (कक्षा ८)",
     rank: 1,
     gradeClass: "Class 8",
     achievementBadge: "Municipal Honor Award"
@@ -168,7 +168,7 @@ export const mockTopPerformers: TopPerformer[] = [
 export const mockCalendarEvents: AcademicCalendarEvent[] = [
   {
     id: 'cal-1',
-    dateBS: "२०८१ असोज १५",
+    dateBS: "२०८३ असोज १५",
     dateAD: "2026-10-01",
     title_en: "SEE Model Board Exams Commence",
     title_np: "एस.इ.इ. (SEE) नमुना परीक्षा सुरु",
@@ -179,7 +179,7 @@ export const mockCalendarEvents: AcademicCalendarEvent[] = [
   },
   {
     id: 'cal-2',
-    dateBS: "२०८१ असोज २४",
+    dateBS: "२०८३ असोज २४",
     dateAD: "2026-10-10",
     title_en: "Dashain Festival Break Begins",
     title_np: "विजया दशमी बिदा प्रारम्भ",
@@ -190,7 +190,7 @@ export const mockCalendarEvents: AcademicCalendarEvent[] = [
   },
   {
     id: 'cal-3',
-    dateBS: "२०८१ कार्तिक २०",
+    dateBS: "२०८३ कार्तिक २०",
     dateAD: "2026-11-05",
     title_en: "Chhath Parva Holiday Concludes",
     title_np: "छठ पर्व बिदा समापन",
@@ -201,7 +201,7 @@ export const mockCalendarEvents: AcademicCalendarEvent[] = [
   },
   {
     id: 'cal-4',
-    dateBS: "२०८१ कार्तिक २१",
+    dateBS: "२०८३ कार्तिक २१",
     dateAD: "2026-11-06",
     title_en: "School Reopens After Festival Vacation",
     title_np: "बिदापछि विद्यालय पुनः सञ्चालन",
@@ -212,7 +212,7 @@ export const mockCalendarEvents: AcademicCalendarEvent[] = [
   },
   {
     id: 'cal-5',
-    dateBS: "२०८१ मङ्सिर १२",
+    dateBS: "२०८३ मङ्सिर १२",
     dateAD: "2026-11-27",
     title_en: "Annual Inter-House Sports Meets Inauguration",
     title_np: "वार्षिक खेलकुद प्रतियोगिता उदघाटन",
@@ -226,9 +226,9 @@ export const mockCalendarEvents: AcademicCalendarEvent[] = [
 export const mockGalleryAlbums: GalleryAlbum[] = [
   {
     id: 'alb-1',
-    title_en: "Annual Science Exhibition & Robotics Fair 2081",
-    title_np: "वार्षिक विज्ञान प्रदर्शनी तथा रोबोटिक्स मेला २०८१",
-    dateBS: "२०८१ भाद्र २०",
+    title_en: "Annual Science Exhibition & Robotics Fair 2083",
+    title_np: "वार्षिक विज्ञान प्रदर्शनी तथा रोबोटिक्स मेला २०८३",
+    dateBS: "२०८३ भाद्र २०",
     coverImage: "/src/assets/images/school_event_science_1786586011650.jpg",
     photosCount: 24,
     photos: [
@@ -241,9 +241,9 @@ export const mockGalleryAlbums: GalleryAlbum[] = [
   },
   {
     id: 'alb-2',
-    title_en: "Saraswati Puja & Cultural Dance Program 2080",
-    title_np: "सरस्वती पूजा तथा सास्कृतिक नृत्य समारोह २०८०",
-    dateBS: "२०८० माघ २२",
+    title_en: "Saraswati Puja & Cultural Dance Program 2082",
+    title_np: "सरस्वती पूजा तथा सास्कृतिक नृत्य समारोह २०८२",
+    dateBS: "२०८२ माघ २२",
     coverImage: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800",
     photosCount: 38,
     photos: [
@@ -256,7 +256,7 @@ export const mockGalleryAlbums: GalleryAlbum[] = [
     id: 'alb-3',
     title_en: "New School Building & Computer Lab Inauguration",
     title_np: "नयाँ विद्यालय भवन तथा आधुनिक कम्प्युटर ल्याब उद्घाटन",
-    dateBS: "२०८० मङ्सिर १५",
+    dateBS: "२०८२ मङ्सिर १५",
     coverImage: "/src/assets/images/school_hero_banner_1786585998844.jpg",
     photosCount: 16,
     photos: [
@@ -270,47 +270,47 @@ export const mockGalleryAlbums: GalleryAlbum[] = [
 export const mockDocuments: DocumentItem[] = [
   {
     id: 'doc-1',
-    title_en: "Grade 1 to 10 Curriculum Syllabus & Book List 2081",
-    title_np: "कक्षा १ देखि १० को पाठ्यक्रम, पाठ्यपुस्तक सूची २०८१",
+    title_en: "Grade 1 to 10 Curriculum Syllabus & Book List 2083",
+    title_np: "कक्षा १ देखि १० को पाठ्यक्रम, पाठ्यपुस्तक सूची २०८३",
     category: 'general',
     fileType: 'pdf',
     fileSize: '3.2 MB',
     downloadCount: 840,
     url: '#',
-    uploadDate: '२०८१ बैशाख १०'
+    uploadDate: '२०८३ बैशाख १०'
   },
   {
     id: 'doc-2',
-    title_en: "SEE Pre-Board Exam Complete Subjectwise Routine 2081",
-    title_np: "एस.इ.इ. प्रि-बोर्ड परीक्षाको विषयगत पूर्ण तालिका २०८१",
+    title_en: "SEE Pre-Board Exam Complete Subjectwise Routine 2083",
+    title_np: "एस.इ.इ. प्रि-बोर्ड परीक्षाको विषयगत पूर्ण तालिका २०८३",
     category: 'routine',
     fileType: 'pdf',
     fileSize: '1.4 MB',
     downloadCount: 1250,
     url: '#',
-    uploadDate: '२०८१ असोज ०४'
+    uploadDate: '२०८३ असोज ०४'
   },
   {
     id: 'doc-3',
-    title_en: "Student Admission Form & Bus Route Guidelines 2081/82",
-    title_np: "छात्रछात्रा भर्ना फार्म तथा बस रुट निर्देशिका २०८१/८२",
+    title_en: "Student Admission Form & Bus Route Guidelines 2083/84",
+    title_np: "छात्रछात्रा भर्ना फार्म तथा बस रुट निर्देशिका २०८३/८४",
     category: 'general',
     fileType: 'pdf',
     fileSize: '820 KB',
     downloadCount: 620,
     url: '#',
-    uploadDate: '२०८१ जेठ ०२'
+    uploadDate: '२०८३ जेठ ०२'
   },
   {
     id: 'doc-4',
-    title_en: "Annual Secondary Academic Calendar 2081 (Bikram Sambat)",
-    title_np: "वार्षिक माध्यमिक शैक्षिक पात्रो २०८१ (विक्रम संवत्)",
+    title_en: "Annual Secondary Academic Calendar 2083 (Bikram Sambat)",
+    title_np: "वार्षिक माध्यमिक शैक्षिक पात्रो २०८३ (विक्रम संवत्)",
     category: 'holidays',
     fileType: 'pdf',
     fileSize: '2.8 MB',
     downloadCount: 1980,
     url: '#',
-    uploadDate: '२०८१ बैशाख ०१'
+    uploadDate: '२०८३ बैशाख ०१'
   }
 ];
 
@@ -372,8 +372,8 @@ export const mockStaffRoles: StaffRole[] = [
 export const mockSeeVideos: SeeVideo[] = [
   {
     id: 'see-vid-1',
-    title_en: "SEE Batch 2080 Grand Reception & Farewell Ceremony Highlights",
-    title_np: "एस.इ.इ. (SEE) २०८० ब्याचको भव्य स्वागत तथा बिदाइ समारोह (रिसेप्सन)",
+    title_en: "SEE Batch 2082 Grand Reception & Farewell Ceremony Highlights",
+    title_np: "एस.इ.इ. (SEE) २०८२ ब्याचको भव्य स्वागत तथा बिदाइ समारोह (रिसेप्सन)",
     description_en: "Official video celebration, cultural performances, motivational addresses by teachers, and token of love distribution for our Grade 10 outgoing batch at Shree Suryodaya Secondary School.",
     description_np: "श्री सूर्योदय माध्यमिक विद्यालयका कक्षा १० का छात्रछात्राको सम्मानमा आयोजित भव्य रिसेप्सन, सांस्कृतिक नृत्य, शिक्षकहरूको शुभकामना मन्तव्य र मायाको चिनो वितरण।",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Embeddable sample
@@ -383,7 +383,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "Cultural & Event Committee",
     instructor_np: "सांस्कृतिक तथा कार्यक्रम समिति",
     viewsCount: 3840,
-    dateBS: "२०८० चैत १८",
+    dateBS: "२०८२ चैत १८",
     isFeatured: true
   },
   {
@@ -399,7 +399,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "Mr. Krishna Prasad Neupane (Senior Math Dept)",
     instructor_np: "कृष्णप्रसाद न्यौपाने (वरिष्ठ गणित शिक्षक)",
     viewsCount: 5120,
-    dateBS: "२०८१ भाद्र १०",
+    dateBS: "२०८३ भाद्र १०",
     isFeatured: true
   },
   {
@@ -415,7 +415,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "Science Faculty Team",
     instructor_np: "विज्ञान संकाय समूह",
     viewsCount: 4290,
-    dateBS: "२०८१ भाद्र १८",
+    dateBS: "२०८३ भाद्र १८",
     isFeatured: false
   },
   {
@@ -431,7 +431,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "English Language Faculty",
     instructor_np: "अंग्रेजी भाषा संकाय",
     viewsCount: 3670,
-    dateBS: "२०८१ भाद्र २५",
+    dateBS: "२०८३ भाद्र २५",
     isFeatured: false
   },
   {
@@ -447,7 +447,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "Principal & Student Counseling Desk",
     instructor_np: "प्रधानाध्यापक तथा विद्यार्थी परामर्श शाखा",
     viewsCount: 6810,
-    dateBS: "२०८१ असोज ०२",
+    dateBS: "२०८३ असोज ०२",
     isFeatured: true
   },
   {
@@ -463,7 +463,7 @@ export const mockSeeVideos: SeeVideo[] = [
     instructor_en: "Student Council Suryodaya",
     instructor_np: "विद्यार्थी परिषद सूर्योदय",
     viewsCount: 2940,
-    dateBS: "२०८० चैत २०",
+    dateBS: "२०८२ चैत २०",
     isFeatured: false
   }
 ];

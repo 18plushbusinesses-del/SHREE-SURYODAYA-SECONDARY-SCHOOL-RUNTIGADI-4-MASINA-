@@ -37,8 +37,8 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       bgImage: '/src/assets/images/school_hero_banner_1786585998844.jpg',
       badge: lang === 'np' ? 'अति जरुरी सूचना' : 'URGENT ANNOUNCEMENT',
       title: lang === 'np' 
-        ? 'एस.इ.इ. (SEE) मोडल बोर्ड परीक्षा तालिका तथा प्रवेशपत्र वितरण २०८१'
-        : 'SEE Model Board Examination Routine & Admit Card Distribution 2081',
+        ? 'एस.इ.इ. (SEE) मोडल बोर्ड परीक्षा तालिका तथा प्रवेशपत्र वितरण २०८३'
+        : 'SEE Model Board Examination Routine & Admit Card Distribution 2083',
       desc: lang === 'np'
         ? 'कक्षा १० का सम्पूर्ण छात्रछात्रालाई असोज १५ देखि सञ्चालन हुने परीक्षाको तालिका र प्रवेशपत्र वितरण सम्बन्धी जानकारी।'
         : 'Important notice regarding SEE Pre-Board Exams commencing Ashoj 15 and admit card distribution from Account Office.',
@@ -63,9 +63,9 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       id: 'slide-2',
       type: 'topper',
       bgImage: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
-      badge: lang === 'np' ? 'शैक्षणिक गौरव २०८०' : 'ACADEMIC HONOR ROLL',
+      badge: lang === 'np' ? 'शैक्षणिक गौरव २०८२' : 'ACADEMIC HONOR ROLL',
       title: lang === 'np'
-        ? 'एस.इ.इ. राष्ट्रिय बोर्ड परीक्षा २०८० मा सूर्योदयका छात्रछात्राको सर्वोत्कृष्ट नतिजा!'
+        ? 'एस.इ.इ. राष्ट्रिय बोर्ड परीक्षा २०८२ मा सूर्योदयका छात्रछात्राको सर्वोत्कृष्ट नतिजा!'
         : 'Shree Suryodaya Students Achieve Top District Honors in SEE Board Exam!',
       desc: lang === 'np'
         ? 'आयुष्मा शर्मा (GPA 3.95 A+) र रोहन तामाङ (GPA 3.88 A+) लगायत सम्पूर्ण उत्तीर्ण विद्यार्थीहरूमा बधाई!'

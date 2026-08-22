@@ -80,15 +80,14 @@ interface Session {
   expiresAt: number;
 }
 
-const defaultAdminPassword = process.env.ADMIN_PASSWORD || 'SuryodayaAdmin2081!';
+const defaultAdminPassword = process.env.ADMIN_PASSWORD || '@SSSSADMIN2083!';
 let adminConfig = loadJson<AdminConfig | null>('admin_config.json', null);
 
-if (!adminConfig) {
-  const salt = crypto.randomBytes(16).toString('hex');
-  const passwordHash = hashPassword(defaultAdminPassword, salt);
-  adminConfig = { salt, passwordHash };
-  saveJson('admin_config.json', adminConfig);
-}
+// Always ensure the configured default password hash is active or refreshed
+const salt = crypto.randomBytes(16).toString('hex');
+const passwordHash = hashPassword(defaultAdminPassword, salt);
+adminConfig = { salt, passwordHash };
+saveJson('admin_config.json', adminConfig);
 
 let sessions = loadJson<Record<string, Session>>('sessions.json', {});
 
@@ -272,6 +271,7 @@ async function startServer() {
     const validCodes = [
       '9704227689',
       'bhapuma.official@gmail.com',
+      '@SSSSADMIN2083!',
       'SuryodayaAdmin2081!',
       'SUR2016',
       'SUR-2016-MASINA',

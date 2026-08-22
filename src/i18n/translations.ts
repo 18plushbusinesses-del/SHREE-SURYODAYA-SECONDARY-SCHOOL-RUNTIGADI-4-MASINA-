@@ -16,7 +16,7 @@ export const translations = {
     helplineLabel: "Contact: 9704227689",
     emergencyContactsTitle: "Official Contacts & Directory",
     schoolEmail: "bhapuma.official@gmail.com",
-    schoolCalendar: "School Calendar 2081/2082",
+    schoolCalendar: "School Calendar 2083/2084",
     languageToggle: "नेपाली",
     currentLangName: "English",
     offlineMode: "Offline Mode Active",
@@ -86,13 +86,13 @@ export const translations = {
     seeSearchPlaceholder: "Search SEE lectures, reception videos, solutions...",
     
     // Top Performers section
-    topPerformersTitle: "SEE & Academic Honor Roll 2080/2081",
+    topPerformersTitle: "SEE & Academic Honor Roll 2082/2083",
     topPerformersSubtitle: "Celebrating outstanding dedication, resilience, and academic excellence of Suryodaya students.",
     rankLabel: "Rank",
     gpaLabel: "GPA / Marks",
 
     // Calendar
-    calendarTitle: "Academic Calendar & Events (२०८१-२०८२)",
+    calendarTitle: "Academic Calendar & Events (२०८३-२०८४)",
     todayIs: "Today in BS Calendar",
     upcomingEvents: "Upcoming School Events & Holidays",
     holidayBadge: "Holiday",
@@ -170,7 +170,7 @@ export const translations = {
     helplineLabel: "सम्पर्क: ९७०४२२७६८९",
     emergencyContactsTitle: "विद्यालय सम्पर्क निर्देशिका",
     schoolEmail: "bhapuma.official@gmail.com",
-    schoolCalendar: "शैक्षिक पात्रो २०८१/२०८२",
+    schoolCalendar: "शैक्षिक पात्रो २०८३/२०८४",
     languageToggle: "English",
     currentLangName: "नेपाली",
     offlineMode: "अफलाइन मोड सक्रिय छ",
@@ -240,13 +240,13 @@ export const translations = {
     seeSearchPlaceholder: "एस.इ.इ. भिडियो, रिसेप्सन, गणित वा विज्ञान कक्षाहरू खोज्नुहोस्...",
 
     // Top Performers section
-    topPerformersTitle: "एस.इ.इ. (SEE) तथा वार्षिक उत्कृष्ट विद्यार्थीहरू २०८०/२०८१",
+    topPerformersTitle: "एस.इ.इ. (SEE) तथा वार्षिक उत्कृष्ट विद्यार्थीहरू २०८२/२०८३",
     topPerformersSubtitle: "सूर्योदय माध्यमिक विद्यालयका उत्कृष्ट अंक हासिल गर्न सफल मेधावी छात्रछात्रा तथा सम्मान पत्र।",
     rankLabel: "स्थान",
     gpaLabel: "जी.पी.ए. / प्राप्ताङ्क",
 
     // Calendar
-    calendarTitle: "शैक्षिक पात्रो तथा कार्यक्रमहरू (२०८१-२०८२)",
+    calendarTitle: "शैक्षिक पात्रो तथा कार्यक्रमहरू (२०८३-२०८४)",
     todayIs: "आजको मिति (नेपाली पात्रो)",
     upcomingEvents: "आगामी विद्यालय कार्यक्रम तथा बिदाहरू",
     holidayBadge: "सार्वजनिक बिदा",
