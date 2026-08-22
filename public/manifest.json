@@ -1,0 +1,22 @@
+{
+  "short_name": "Suryodaya Portal",
+  "name": "SHREE SURYODAYA SECONDARY SCHOOL - Notice Portal",
+  "icons": [
+    {
+      "src": "pwa-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "Official Notice, Announcement and Resource Portal for Shree Suryodaya Secondary School"
+}
